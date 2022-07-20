@@ -1,0 +1,242 @@
+@media only screen and (min-width: 992px) {
+  #navbarSupportedContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+i {
+  font-size: 1.4rem;
+}
+#logo {
+  height: 50px;
+  background-color: #9ca17f;
+}
+#logo p {
+  font-size: 1.5rem;
+  color: white;
+}
+.img-responsive {
+  height: 20rem;
+}
+#image-logo {
+  width: 21rem;
+  height: 19rem;
+}
+#text-logo {
+  font-size: 2.4rem;
+}
+#stars-icon {
+  font-size: 3rem;
+  color: #a6baa7;
+}
+
+#btn-show {
+  display: block;
+  margin: 4rem auto;
+}
+#image-col-6 {
+  width: 89%;
+  height: 34rem;
+  padding: 2rem 0 0 2rem;
+}
+#offer-span {
+  background-color: #4e7661;
+  color: white;
+  padding: 0.5rem;
+}
+#text-offer {
+  padding: 4rem 0 0 4rem;
+  font-size: 1.5rem;
+}
+#offer-secondline {
+  padding: 1rem 0 0 4rem;
+  font-size: 3rem;
+}
+#offer-muted {
+  padding: 1rem 0 0 4rem;
+}
+
+#Dark {
+  margin: 1rem 0 0 4rem;
+  padding: 0.8rem 3rem;
+}
+#section-icon {
+  font-size: 3rem;
+  color: #a6baa7;
+}
+#card-section {
+  border: none;
+}
+#card-section div p {
+  line-height: 3.5rem;
+}
+#more-info {
+  line-height: 3rem;
+}
+
+#more-discover {
+  color: #4e7661;
+}
+footer {
+  background-color: #9ca17f;
+  height: auto;
+}
+#footer-glowing-a {
+  color: white;
+  font-size: 2rem;
+  text-decoration: none;
+}
+#footer-icon {
+  margin-top: 1rem;
+}
+.remove {
+  background-color: red;
+  border-radius: 50%;
+  padding: 0.7rem 0.7rem;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin-left: 3rem;
+}
+.submenu {
+  position: relative;
+}
+
+
+@media only screen and (max-width: 992px) {
+  #cart-items{
+    margin-right: -25rem;
+  
+  }
+}
+
+
+ul {
+  list-style: none;
+}
+th {
+  padding-right: 4.3rem !important;
+}
+@media only screen and (max-width: 690px) {
+  #cart-items{
+    margin-right: -16rem!important;
+    width: 20rem!important;
+  }
+  .cart-item{
+    display: flex!important;;
+    flex-direction: column!important;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #row-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.shoppingCart {
+  text-decoration: none;
+  color: black;
+}
+.shoppingCart:hover {
+  color: black;
+  text-decoration: none;
+}
+#cart-items {
+  display: none;
+  z-index: 100;
+  position: absolute;
+  right: -21%;
+  top: 182%;
+  background-color: #fff;
+  width: 30rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem rgba(117, 117, 117, 0.5);
+  padding-bottom: 2rem;
+}
+#cart-items.active {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cart-item > * {
+  margin: 0.5rem;
+}
+.cart-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px dashed rgb(212, 212, 212);
+}
+.cart-item > img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+}
+.btn-small {
+  outline: 0;
+  border:none;
+ 
+  padding: 0.4rem 0.4rem;
+  background-color: #9ca17f;
+  color: #fff;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.btn-remove {
+  background-color: #f0544f;
+}
+.ckeck-out {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 2rem;
+}
+.check-out-btn {
+  border-radius: 0.2rem;
+  padding: 0.3rem 1.9rem;
+}
+#clear-cart {
+  background-color: #f0544f;
+  color: #fff;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 0.2rem;
+  padding: 0.3rem 1.9rem;
+  transform: all 0.6s;
+}
+.ckeck-out > * {
+  margin: 0rem 0.4rem !important;
+}
+.btns {
+  display: flex;
+  flex-direction: row
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 1rem;
+}
+#clear-cart:hover {
+  transform: scale(1.2, 1.2);
+  color: black;
+}
+.check-out-btn:hover {
+  transform: scale(1.2, 1.2);
+}
+.add-to-cart {
+  color: white !important;
+}
+

@@ -1,0 +1,392 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Glowing</title>
+    <link rel="stylesheet" href="style/bootstrap.min.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="cart.html">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css">
+  </head>
+  <body>
+    <div class="container-fluid">
+    
+<div class="row" id="logo"><p class="text-center mx-auto pt-1">
+  Glowing<i class="bi bi-stars"></i>
+  
+  </p>
+</div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">GLOWING</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 pl-5" id="ul-list">
+            <li class="nav-item pl-2">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item pl-2">
+              <a class="nav-link" href="#text-logo">Shop</a>
+            </li>
+            <li class="nav-item dropdown pl-2">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Pages
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">About us</a></li>
+                <li><a class="dropdown-item" href="#">contact us</a></li>
+                <li><a class="dropdown-item" href="#">FAQs</a></li>
+                <li><a class="dropdown-item" href="#">store</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item pl-2">
+              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
+                >Log in</i
+              ></a>
+            </li>
+            <li class="nav-item pl-2">
+              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
+                ></i></i
+              ></a>
+            </li>
+          </ul>
+        
+          <div > 
+<div class="row" id="secondrow">
+  
+  <ul id="cart">
+    <li class="submenu">
+        <div class="cart-count"><i class="bi bi-cart3 p-2" title="Your cart"id="img-cart"><span>0</span></i></div>
+        <div id="cart-items">
+          <div class="basket">
+         
+           
+
+            <div class="ckeck-out">
+                    <h4 class="total-price">Total:</h4>
+                    
+                    <h4 class="total-cost"></h4>
+                    $
+                    
+                  </div>
+                  <div class="btns">
+                    <!-- <button class="btn check-out-btn btn-small">Pay</button> -->
+            <a href="#" id="clear-cart" class="button u-full-width check-out-btn">Delet all</a>
+                   </div>
+        
+     
+   
+         </div>
+    </li>
+</ul>
+
+  <i class="bi bi-person-fill p-2" title="Your account"></i>
+  <i class="bi bi-star p-2"></i>
+</div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <div class="card-deck mt-5  m-0  container-fluid" id="home">
+      <div class="card">
+        <img class="card-img-top" src="images/my October beauty report (with Perricone MD, BH Cosmetics, BECCA & more!).jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Hair Mask</h5>
+          <p class="card-text">Kérastase 
+            Resistance Extentionste Hair Mask for damaged lengths and ends</p>
+        </div>
+        <div class="pl-4">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i>
+          <i class="bi bi-star"></i>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 13 mins ago</small>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="images/How To Transition Your Skincare Routine To All Natural — The Refined Woman.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">
+            Palermo Checks and Balances</h5>
+          <p class="card-text">Palermo Checks and Balances Frothy Face Wash.</p>
+        </div>
+        <div class="pl-4">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star"></i>
+          
+
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 8 mins ago</small>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="images/CBD Brand Design - Fine Healing Goods - Doodle Dog Creative(3).jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Fine healing goods</h5>
+          <p class="card-text">Fine healing goods Calendula Deep Cleansing Foaming Face Wash. </p>
+        </div>
+        <div class="pl-4">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i>
+          <i class="bi bi-star"></i>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 24 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex flex-column justify-content-center align-items-center">
+      
+    
+
+  <p class="m-2 p-2 d-flex flex-column  justify-content-center align-items-center" id="text-logo">
+    <i class="bi bi-stars mt-2 " id="stars-icon"></i>
+    <br>
+  Because You Need Time for Yourself. <br> Blend Beauty in You
+ </p>
+
+
+</div>
+
+
+
+<div id="shop">
+    <div class="card-deck mt-5  m-0  container-fluid" >
+    <div class="card " id="card" data-id="1">
+      <img src=" images/22 New Beauty Products You Need To Get Your Hands On Right Now.jpg" class="card-img-top img-responsive" alt="..." id="imageforcard">
+      <div class="card-body info-card">
+        <h5 >$<span class="card-title">23</span>.00</h5>
+        <p class="card-text font-weight-bold" id="Bronze">Bloom, Bronze & Glow Bronzer & Highlighter Duo.</p>
+        <button  class="btn btn-primary add-to-cart button" data-id="1" id="success" >Buy now</ab>
+      </div>
+    </div>
+    <div class="card" id="card"data-id="2">
+      <img src="images/MALĀKO Skincare Packaging.jpg" class="card-img-top img-responsive" alt="..." id="imageforcard">
+      <div class="card-body info-card">
+        <h5 >$<span class="card-title">25</span>.00</h5>
+        <p class="card-text font-weight-bold" id="Energy Serum">15% Vitamin C + Clean Caffeine Energy Serum.</p>
+        <button  class="btn btn-primary add-to-cart button" data-id="2"  id="success" >Buy now</button>
+      </div>
+    </div>
+    <div class="card"id="card" data-id="3">
+      <img src="images/Target Introduces Everspring Down-to-earth Essentials that are up to Earth's Standards(15).jpg" class="card-img-top img-responsive" alt="..." id="imageforcard">
+      <div class="card-body info-card">
+        <h5 >$<span class="card-title">26</span>.00</h5>
+        <p class="card-text font-weight-bold" id="Hydrate">Water Drench Hyaluronic Hydrating Moisturizer SPF 45.</p>
+        <button  class="btn btn-primary add-to-cart button" data-id="3"  id="success"  >Buy now</button>
+      </div>
+    </div>
+    <div class="card" id="card"data-id="4">
+      <img src="images/19 Homemade Face Toner Recipes for Every Skin Type - Hello Glow.jpg" class="card-img-top img-responsive" alt="..." id="imageforcard">
+      <div class="card-body info-card">
+        <h5 >$<span class="card-title">22</span>.00</h5>
+        <p class="card-text font-weight-bold" id="Water Cream ">The Water Cream Oil-Free Pore Minimizing Moisturizer.</p>
+        <button  class="btn btn-primary add-to-cart button" data-id="4" id="success">Buy now</button>
+      </div>
+    </div>
+    </div>
+
+    <div class="card-deck mt-5  m-0  container-fluid" id="shop">
+      <div class="card " id="card" data-id="5">
+        <img src="images/Anti-Aging Pflege(2).jpg" class="card-img-top img-responsive" alt="..." id="imageforcard">
+        <div class="card-body info-card">
+          <h5 >$<span class="card-title">34</span>.00</h5>
+          <p class="card-text font-weight-bold" id="Mask">Superberry Hydrate + Glow Dream Mask with Vitamin C.</p>
+          <button  class="btn btn-primary add-to-cart button" data-id="5" id="success" >Buy now</button>
+        </div>
+      </div>
+      <div class="card " id="card" data-id="6">
+        <img src="images/10 Beauty Products To Get Your Skin Through Winter - Somewhere, Lately.jpg" class="card-img-top img-responsive" alt="..." id="imageforcard">
+        <div class="card-body info-card">
+          <h5 >$<span class="card-title">43</span>.00</h5>
+          <p class="card-text font-weight-bold" id="Wash-skin">The Rice Wash Skin-Softening Cleanser.</p>
+          <button  class="btn btn-primary add-to-cart button" data-id="6" id="success" >Buy now</button>
+        </div>
+      </div>
+      <div class="card "id="card"data-id="7">
+        <img src="images/I Found Out Why Everyone Is Freaking Out About Vintner's Daughter's New Product.jpg" class="card-img-top img-responsive" alt="..." id="imageforcard">
+        <div class="card-body info-card">
+          <h5 >$<span class="card-title">64</span>.00</h5>
+          <p class="card-text font-weight-bold" id="Shine Drops">Complete Nourishing Hair Oil Shine Drops.</p>
+          <button  class="btn btn-primary add-to-cart button" data-id="7" id="success" >Buy now</button>
+        </div>
+      </div>
+      <div class="card " id="card" data-id="8">
+        <img src="images/Time For Pore Care - Neulii BHA PHA 5_5 Peeling Pads Review.jpg" class="card-img-top img-responsive" alt="..." id="imageforcard">
+        <div class="card-body info-card">
+          <h5 >$<span class="card-title">52</span>.00</h5>
+          <p class="card-text font-weight-bold" id="Eye Cream">The Silk Peony Melting Eye Cream.</p>
+          <button  class="btn btn-primary add-to-cart button" data-id="8" id="success" >Buy now</button>
+
+        </div>
+      </div>
+      </div>
+     </div>
+   
+      <button type="button" class="btn btn-outline-secondary pl-3 pr-3 " id="btn-show">Show more</button>
+<div class="container">
+<div class="row" id="row-block">
+<div class="col mt-1 mb-3 " id="img-soap">
+<img src="images/CHRISTOFFER DALKARLS.png" alt="" id="image-col-6" class="imgo-ffer "> 
+</div>
+<div class="col mt-1 mb-3">
+<p id="text-offer">Special offer <span id="offer-span" class="rounded-circle">20%</span></p>
+<p  id="offer-secondline">Save on Sets</p>
+<p class="text-muted" id="offer-muted">Made using clean, non-toxic ingredients, our products are designed for everyone</p>
+<button type="button" class="btn btn-dark text-center" id="Dark">Get Only $39,00</button>
+</div>
+</div>
+</div>
+
+<!-- section card -->
+<div class="card-deck mt-5 ml-2 mr-2">
+  <div class="card" id="card-section">
+    <div class="card-body text-center">
+      <p class="card-text"><i class="bi bi-box" id="section-icon"></i>
+      <h2>Free Shopping</h2><p class="text-muted">Free Shopping for orders over $130</p>
+      </p>
+    </div>
+  </div>
+  <div class="card "  id="card-section">
+    <div class="card-body text-center">
+      <p class="card-text"><i class="bi bi-flower1" id="section-icon"></i>
+      <h2>Returns</h2>
+    <p class="text-muted">Within 30 days for an exchange.</p></p>
+    </div>
+  </div>
+  <div class="card "  id="card-section">
+    <div class="card-body text-center">
+      <p class="card-text"><i class="bi bi-chat-left-text"  id="section-icon"></i>
+      <h2>Online Support</h2><p class="text-muted">24 hours a day, 7 days a week</p> <p>
+    </div>
+  </div>
+  <div class="card"  id="card-section">
+    <div class="card-body text-center">
+      <p class="card-text"><i class="bi bi-credit-card" id="section-icon"></i>
+      <h2>Flexible Payment</h2>
+      <p class="text-muted">Pay with Multiple Credit Cards</p>
+    </p>
+    </div>
+  </div>
+</div>
+
+  <div class="d-flex flex-column justify-content-center align-items-center mt-3" id="more-info">
+<h1>More to Discover</h1><br>
+<p class="text-muted p-2">Our bundles were designed to conveniently package your tanning 
+   essentials while saving you money.</p>
+</div>
+
+
+<div class="card-deck mt-5  m-0  container-fluid">
+  <div class="card border-0 " id="card" >
+    <img src="images/Soap Design(1).jpg" class="card-img-top img-responsive" alt="...">
+    <div class="card-body">
+      <h5 class="card-title text-center">Summer Collection</h5>
+      <p class="card-text font-weight-bold text-center"  id="more-discover">Shop now</p>
+      
+    </div>
+  </div>
+  
+  
+  <div class="card border-0" id="card">
+    <img src="images/Cremas antiarrugas naturales y dos recetas caseras.jpg" class="card-img-top img-responsive" alt="...">
+    <div class="card-body">
+      <h5 class="card-title text-center">From Our Blog</h5>
+      <p class="card-text font-weight-bold text-center" id="more-discover">Read more</p>
+      
+    </div>
+  </div>
+  </div>
+<!-- footer -->
+<footer>
+  <div class="container-fluid p-3">
+    <div class="row">
+      <div class="col-12 col-sm-6 col-md-3 text-end ">
+<a href="#" id="footer-glowing-a" class="font-weight-bolder ">Glowing</a>
+<p>Glowing is a perfect place for all makeup lovers*
+
+Beginners and professionals,makeup lovers and artists everyone will find something for themselves.</p>
+<div id="footer-icon">
+  <i class="bi bi-instagram ml-2"></i>
+  <i class="bi bi-twitter ml-2"></i>
+  <i class="bi bi-youtube ml-2"></i>
+  <i class="bi bi-facebook ml-2"></i>
+</div>
+</div>
+<div class="col-12 col-sm-6 col-md-3 text-end ">
+  <a href="#" id="footer-glowing-a" class="font-weight-bolder ">About us</a>
+  <p>Welcome to our colorful world of makeup!Let's develop your makeup passion together!</p>
+  <div> <h3><i class="bi bi-telephone pr-1"></i>Ask us a question:</h3>
+  <p>call us +48 785 455 777</p>
+<p>
+  Open Monday to Friday,8AM to 4PM CET
+</p></div>
+  <div></div>
+  <div></div>
+</div>
+<div class="col-12 col-sm-6 col-md-3 text-end ">
+  <a href="#" id="footer-glowing-a" class="font-weight-bolder ">Help & Information
+  </a>
+  <p>Pagination </p>
+  <p>Terms & Conditions</p>
+  <p>Contact</p>
+  <p>Cost of delivery</p>
+
+
+</div>
+<div class="col-12 col-sm-6 col-md-3 text-end " id="lastsection-footer">
+  <a href="#" id="footer-glowing-a" class="font-weight-bolder ">Sign up and save</a>
+  <p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>
+  <div class="input-group mb-3">
+    <input type="text" class="form-control" aria-describedby="basic-addon2">
+    <span class="input-group-text" id="basic-addon2">@example.com</span>
+  </div>
+</div>
+</div>
+</div>
+
+</footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>
+   <script src="script/bootstrap.min.js"></script>
+    <script src="script/jquery-3.6.0.slim.min.js"></script>
+    <script src="script/popper.min.js"></script>
+    <script src="script/main.js"></script>
+  </body>
+</html>
